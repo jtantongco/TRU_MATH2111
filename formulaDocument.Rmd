@@ -1,0 +1,28 @@
+---
+title: "TRU MATH 2111 Formula Sheet"
+author: "Jeremiah Tantongco"
+date: "Saturday, March 28, 2015"
+output: html_document
+---
+<!-- $$<content>$$ will center the math annoation -->
+<!-- $<content>$ will insert inline math annotation -->
+<!-- need 2 spaces for a newline character -->
+Sigh convection in $R^3$:  
+x into and out of page, y going laterally, and z going up and down.
+
+Distance in $R^3$ - 3d pythagoras:
+$$d=\sqrt{(x_2-x_1)^2-(y_2-y_1)^2-(z_2-z_1)^2}$$
+$sqrt(x)$
+
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
